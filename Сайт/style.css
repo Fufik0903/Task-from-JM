@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;700&display=swap');
+body{
+    background-color: #EFF6FF;
+    font-family: 'Barlow', sans-serif;
+}
+div.container{
+    display: flex;
+}
+div.img{
+    width: 60%;
+    background-image: url(https://github.com/jm-program/css-task/blob/master/img/bg.jpg?raw=true);
+    background-size: cover;
+}
+div.img img{
+    width: 20%;
+    padding: 30px;
+}
+div.news{
+    width: 40%;
+    padding: 100px 50px 50px 100px;
+    color: #2A4A5C;
+}
+/*Заголовки*/
+p.mainHeading{
+    font-size: 2.7em;
+    margin: auto auto 15px auto;
+}
+p.secondHeading{
+    color: #7B8A92;
+    font-size: 1.7em;
+    margin: auto auto 60px auto;
+}
+/*Линия -OR-*/
+div.line{
+    display: flex;
+    margin-right: 2%;
+}
+div.line_1{
+    width: 30%;
+    margin: 75px 10px 0 110px;
+    border-top: 1px solid #7B8A92;
+}
+div.line_2{
+    width: 30%;
+    margin: 75px 110px 0 10px;
+    border-top: 1px solid #7B8A92;
+}
+p.line{
+    padding: 70px 0;
+    text-align: center;
+    color: #7B8A92;
+}
+/*Кнопки фейсбука и linkedin*/
+div.btn{
+    display: flex;
+    justify-content: space-between;
+}
+div.FB{
+    position: relative;
+    margin-bottom: 10px;
+}
+div.icon{
+
+}
+div.FB img{
+    width: 15%;
+    height: 50%;
+    top: 25%;
+    bottom: 25%;
+    position: absolute;
+}
+div.LinkedIn{
+    position: relative;
+}
+div.LinkedIn img{
+    width: 15%;
+    height: 50%;
+    top: 15%;
+    bottom: 25%;
+    position: absolute;
+}
+button#FacebookBtn{
+    background-color: #255A9B;
+    border-style: none;
+}
+button#FacebookBtn :hover{
+    opacity: 0.2;
+}
+button#LinkedInBtn :hover{
+    opacity: 0.2;
+}
+button#FacebookBtn p{
+    padding: 15px 70px;
+    font-size: 1.2em;
+    text-align: center;
+    color: white;
+}
+button#LinkedInBtn{
+    background-color: #0076B6;
+    border-style: none;
+}
+button#LinkedInBtn p{
+    padding: 15px 75px;
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+}
+@media (max-width:1750px) {
+    div.btn{
+        display: flex;
+        flex-direction: column ;
+        justify-content: space-between;
+    }
+    div.FB{
+        display: flex;
+        justify-content: center;
+    }
+    div.LinkedIn{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (min-width:1751px) {
+    div.btn{
+        display: flex;
+        justify-content: space-between;
+    }
+    div.FB{
+        width: 50%;
+    }
+    div.LinkedIn{
+        width: 50%;
+    }
+
+}
+/*Поля почта/телефон*/
+div.field{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+div.emailField input#email{
+    border: 1px solid #AFAFAF;
+    border-left:1px solid #00b3ff;
+    border-radius: 0 5px 0 0;
+    height: 60px;
+}
+div.phoneField input#phone{
+    border: 1px solid #AFAFAF;
+    border-radius: 0 0 5px 5px;
+    height: 60px;
+}
+@media (min-width:1751px) {
+    div.emailField{
+        width: 50%;
+    }
+    div.phoneField{
+        width: 50%;
+    }
+    div.emailField input#email{
+        width: 300px;
+        border: 1px solid #AFAFAF;
+        border-left:1px solid #00b3ff;
+        border-radius: 0 5px 0 0;
+        height: 60px;
+    }
+    div.phoneField input#phone{
+        width: 300px;
+        border: 1px solid #AFAFAF;
+        border-radius: 0 0 5px 5px;
+        height: 60px;
+    }
+}
+@media (max-width:1750px) {
+    div.field{
+        display: flex;
+        flex-direction: column ;
+        justify-content: space-between;
+        height: 130px;
+    }
+    div.emailField{
+        display: flex;
+        justify-content: center;
+    }
+    div.phoneField{
+        display: flex;
+        justify-content: center;
+    }
+    div.emailField input#email{
+        width: 60%;
+        margin-bottom: 15px;
+        height: 60px;
+    }
+    div.phoneField input#phone{
+        width: 60%;
+        height: 60px;
+    }
+}
+/*Кнопка создать аккаунт*/
+button#CreateBtn{
+    background-color: #3698FB;
+    border-style: none;
+    border-radius: 5px;
+}
+button#CreateBtn p{
+    font-size: 1.3em;
+    font-weight: bolder;
+    padding: 15px 90px;
+    text-align: center;
+    color: white;
+}
+button#CreateBtn :hover{
+    background-color: #052e5b;
+    border-style: none;
+    border-radius: 5px;
+}
+/*Вопрос*/
+p.question{
+    font-size: 2em;
+    margin: 50px auto 10px auto;
+}
+p.selection{
+    color: #7B8A92;
+    font-size: 1em;
+    margin: auto auto 30px auto;
+}
+/*радио кнопки*/
+div.radio{
+    display: flex;
+    font-weight: bold;
+    font-size: 1em;
+    color: black;
+}
+div.Individual{
+    display: flex;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+div.Business{
+    display: flex;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+div.IRA{
+    display: flex;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+div.Trust{
+    display: flex;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+div.radio label{
+    padding: 0 6% 5px 10px;
+}
+@media (max-width:1660px) {
+    div.radio{
+        display: flex;
+        flex-direction: column ;
+        justify-content: space-between;
+    }
+}
+/*Предупреждение "I am a netural person"*/
+div.investing{
+    background-color: white;
+    width: 32%;
+    margin: 25px auto 50px 0px;
+    padding: 10px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+div.investing p{
+    color: #AFAFAF;
+}
+/*CheckBox "I agree"*/
+div.checkBox{
+    margin: auto auto 50px auto;
+}
+div.checkBox label{
+    color:#AFAFAF ;
+}
+div.checkBox label span{
+    color:#3698FB ;
+    text-decoration: underline;
+}

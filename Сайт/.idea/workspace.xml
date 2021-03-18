@@ -25,7 +25,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Java-Mentor" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -63,7 +65,11 @@
       <workItem from="1615984652544" duration="1739000" />
       <workItem from="1615986424756" duration="1803000" />
       <workItem from="1615988256625" duration="1862000" />
-      <workItem from="1615990141185" duration="961000" />
+      <workItem from="1615990141185" duration="1630000" />
+      <workItem from="1616053447598" duration="1358000" />
+      <workItem from="1616073422265" duration="131000" />
+      <workItem from="1616073730526" duration="5000" />
+      <workItem from="1616073749422" duration="7208000" />
     </task>
     <servers />
   </component>
@@ -75,6 +81,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1181" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1615885539803" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1616053983715">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1616053983715" />
     <state x="43" y="212" key="SettingsEditor" timestamp="1615985988149">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -83,6 +93,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1147" y="123" width="585" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1615886054179" />
+    <state x="1068" y="321" key="run.anything.popup" timestamp="1616081949523">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1068" y="321" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1616081949523" />
     <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1615884288739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
